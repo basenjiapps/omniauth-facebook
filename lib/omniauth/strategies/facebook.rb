@@ -14,7 +14,7 @@ module OmniAuth
 
       option :client_options, {
         site: "https://graph.facebook.com/#{DEFAULT_FACEBOOK_API_VERSION}",
-        authorize_url: "https://www.facebook.com/#{DEFAULT_FACEBOOK_API_VERSION}/dialog/oauth",
+        authorize_url: "https://m.facebook.com/#{DEFAULT_FACEBOOK_API_VERSION}/dialog/oauth",
         token_url: 'oauth/access_token'
       }
 
